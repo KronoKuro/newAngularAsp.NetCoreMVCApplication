@@ -12,3 +12,15 @@ C:\Users\Pmatrosov\Desktop\ProjGit\Movie\WebApplication1\MovieReviewSpa.Data.Con
 C:\Users\Pmatrosov\Desktop\ProjGit\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\bin\Debug\netcoreapp2.1\MovieReviewSpa.Model.pdb
 C:\Users\Pmatrosov\Desktop\ProjGit\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Hosting.xml
 C:\Users\Pmatrosov\Desktop\ProjGit\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\obj\Debug\netcoreapp2.1\MovieReviewSpa.Data.Contracts.csproj.CopyComplete
+C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\bin\Debug\netcoreapp2.1\MovieReviewSpa.Data.Contracts.deps.json
+C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\bin\Debug\netcoreapp2.1\MovieReviewSpa.Data.Contracts.dll
+C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\bin\Debug\netcoreapp2.1\MovieReviewSpa.Data.Contracts.pdb
+C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\bin\Debug\netcoreapp2.1\MovieReviewSpa.Model.dll
+C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\bin\Debug\netcoreapp2.1\MovieReviewSpa.Model.pdb
+C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\obj\Debug\netcoreapp2.1\MovieReviewSpa.Data.Contracts.csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\obj\Debug\netcoreapp2.1\MovieReviewSpa.Data.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\obj\Debug\netcoreapp2.1\MovieReviewSpa.Data.Contracts.AssemblyInfoInputs.cache
+C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\obj\Debug\netcoreapp2.1\MovieReviewSpa.Data.Contracts.AssemblyInfo.cs
+C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\obj\Debug\netcoreapp2.1\MovieReviewSpa.Data.Contracts.csproj.CopyComplete
+C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\obj\Debug\netcoreapp2.1\MovieReviewSpa.Data.Contracts.dll
+C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Data.Contracts\obj\Debug\netcoreapp2.1\MovieReviewSpa.Data.Contracts.pdb

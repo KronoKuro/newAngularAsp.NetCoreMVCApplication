@@ -4,7 +4,7 @@
     <form [formGroup]="editMoveForm" (ngSubmit)="edit()" role="form" class="col-md-9 go-right">
 
       <h2>Enter New Movie</h2>
-      <input id="id" name="id" type="text" class="form-control" formControlName="id" > 
+      <input id="id" name="id" type="text" class="form-control" formControlName="id" style="display: none;"> 
       <div class="form-group">
         <input id="movieName" name="movieName" type="text" class="form-control" formControlName="movieName">
         <label for="movieName">Movie Name</label>

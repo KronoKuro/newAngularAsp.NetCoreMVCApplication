@@ -1,11 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using MovieReviewSpa.Model;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using static Microsoft.AspNetCore.Hosting.Internal.HostingApplication;
-
-namespace MovieReviewSpa.Data.Contracts
+﻿namespace MovieReviewSpa.Data.Contracts
 {
     /*public interface /*
     {

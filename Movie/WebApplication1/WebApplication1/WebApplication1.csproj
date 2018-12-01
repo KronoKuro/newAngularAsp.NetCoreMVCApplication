@@ -32,7 +32,9 @@
 
   <ItemGroup>
     <None Remove="ClientApp\src\app\models\movie.model.ts" />
+    <None Remove="ClientApp\src\app\models\review.model.ts" />
     <None Remove="ClientApp\src\app\movie\movies.services.ts" />
+    <None Remove="ClientApp\src\app\reviews\reviews.services.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,8 +44,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\app\models\review.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\models\movie.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\movie\movies.services.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\reviews\reviews.services.ts" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

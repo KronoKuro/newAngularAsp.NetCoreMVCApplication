@@ -2932,23 +2932,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pmatrosov\\.nuget\\packages\\": {},
+    "C:\\Users\\Denis\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pmatrosov\\Desktop\\ProjGit\\Movie\\WebApplication1\\MovieReviewSpa.Data.Contracts\\MovieReviewSpa.Data.Contracts.csproj",
+      "projectUniqueName": "C:\\Users\\Denis\\Desktop\\project\\newcrud\\Movie\\WebApplication1\\MovieReviewSpa.Data.Contracts\\MovieReviewSpa.Data.Contracts.csproj",
       "projectName": "MovieReviewSpa.Data.Contracts",
-      "projectPath": "C:\\Users\\Pmatrosov\\Desktop\\ProjGit\\Movie\\WebApplication1\\MovieReviewSpa.Data.Contracts\\MovieReviewSpa.Data.Contracts.csproj",
-      "packagesPath": "C:\\Users\\Pmatrosov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pmatrosov\\Desktop\\ProjGit\\Movie\\WebApplication1\\MovieReviewSpa.Data.Contracts\\obj\\",
+      "projectPath": "C:\\Users\\Denis\\Desktop\\project\\newcrud\\Movie\\WebApplication1\\MovieReviewSpa.Data.Contracts\\MovieReviewSpa.Data.Contracts.csproj",
+      "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Denis\\Desktop\\project\\newcrud\\Movie\\WebApplication1\\MovieReviewSpa.Data.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pmatrosov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2961,8 +2961,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Pmatrosov\\Desktop\\ProjGit\\Movie\\WebApplication1\\MovieReviewSpa.Model\\MovieReviewSpa.Model.csproj": {
-              "projectPath": "C:\\Users\\Pmatrosov\\Desktop\\ProjGit\\Movie\\WebApplication1\\MovieReviewSpa.Model\\MovieReviewSpa.Model.csproj"
+            "C:\\Users\\Denis\\Desktop\\project\\newcrud\\Movie\\WebApplication1\\MovieReviewSpa.Model\\MovieReviewSpa.Model.csproj": {
+              "projectPath": "C:\\Users\\Denis\\Desktop\\project\\newcrud\\Movie\\WebApplication1\\MovieReviewSpa.Model\\MovieReviewSpa.Model.csproj"
             }
           }
         }

@@ -1,12 +1,11 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using MovieReviewSpa.Data.Contracts;
+using MovieReviewSpa.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using MovieReviewSpa.Data.Contracts;
-using MovieReviewSpa.Model;
 
 namespace WebApplication1.Controllers
 {
@@ -28,10 +27,10 @@ namespace WebApplication1.Controllers
         }
 
         [HttpGet("{id}")]
-        public MovieReview GetByReviewId(string id)
+        public IEnumerable<MovieReview> GetByReviewId(string id)
         {
             var reviewsMovie = movieReviewsRepository.GetAll()
-                .FirstOrDefault(m => m.Id == id);
+                .Where(m => m.MovieId == id);
             if (reviewsMovie != null)
                 return reviewsMovie;
 

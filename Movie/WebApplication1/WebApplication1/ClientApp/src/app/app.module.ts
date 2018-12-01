@@ -13,6 +13,11 @@ import { MovieComponent } from './movie/movie.component';
 import { MoviesServices } from './movie/movies.services';
 import { AddMovieComponent } from './movie/add-movie/add-movie.component';
 import { EditMovieComponent } from './movie/edit-movie/edit-movie.component';
+import { DeleteMovieComponent } from './movie/delete-movie/delete-movie.component';
+import { ReviewsServices } from './reviews/reviews.services';
+import { ReviewComponent } from './reviews/reviews.component';
+
+
 
 @NgModule({
   declarations: [
@@ -23,7 +28,9 @@ import { EditMovieComponent } from './movie/edit-movie/edit-movie.component';
     FetchDataComponent,
     MovieComponent,
     AddMovieComponent,
-    EditMovieComponent
+    EditMovieComponent,
+    DeleteMovieComponent,
+    ReviewComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -34,14 +41,16 @@ import { EditMovieComponent } from './movie/edit-movie/edit-movie.component';
       //{ path: '', redirectTo:'home', component: HomeComponent, pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
       { path: 'movies', component: MovieComponent },
-      { path: 'add-movies', component: AddMovieComponent },
+      { path: 'reviews/:id', component: ReviewComponent },
+      { path: 'add-movie', component: AddMovieComponent },
       { path: 'edit-movie/:id', component: EditMovieComponent },
+      { path: 'delete-movie/:id', component: DeleteMovieComponent },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
       { path: '**', redirectTo: 'home' },
     ])
   ],
-  providers: [MoviesServices,],
+  providers: [MoviesServices, ReviewsServices],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
