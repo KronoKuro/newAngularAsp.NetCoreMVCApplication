@@ -16,6 +16,7 @@ import { EditMovieComponent } from './movie/edit-movie/edit-movie.component';
 import { DeleteMovieComponent } from './movie/delete-movie/delete-movie.component';
 import { ReviewsServices } from './reviews/reviews.services';
 import { ReviewComponent } from './reviews/reviews.component';
+import { AddReviewComponent } from './reviews/add-review/add-review.component';
 
 
 
@@ -30,7 +31,8 @@ import { ReviewComponent } from './reviews/reviews.component';
     AddMovieComponent,
     EditMovieComponent,
     DeleteMovieComponent,
-    ReviewComponent
+    ReviewComponent,
+    AddReviewComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -42,6 +44,7 @@ import { ReviewComponent } from './reviews/reviews.component';
       { path: 'home', component: HomeComponent },
       { path: 'movies', component: MovieComponent },
       { path: 'reviews/:id', component: ReviewComponent },
+      { path: 'add-review', component: AddReviewComponent },
       { path: 'add-movie', component: AddMovieComponent },
       { path: 'edit-movie/:id', component: EditMovieComponent },
       { path: 'delete-movie/:id', component: DeleteMovieComponent },

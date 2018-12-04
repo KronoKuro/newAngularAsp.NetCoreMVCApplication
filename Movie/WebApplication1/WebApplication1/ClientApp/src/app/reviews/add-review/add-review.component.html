@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row">
+
+    <form  [formGroup]="addReviewForm" (ngSubmit)="add()"  role="form" class="col-md-9 go-right">
+
+      <h2>Enter Add Review</h2>
+      <div class="form-group">
+        <input id="revieweName" name="revieweName" type="text" class="form-control"  formControlName="revieweName">
+        <label for="movieName">Review Name</label>
+        <div class="alert alert-danger"
+              *ngIf="addReviewForm.get('revieweName').hasError('required') && addReviewForm.get('revieweName').touched">Please entry valid value and repeat</div>
+      </div>
+
+      <div class="form-group">
+        <input id="directorName" name="addMoveForm.directorName" type="text" class="form-control"  formControlName="directorName">
+        <label for="directorName">Director Name</label>
+        <div class="alert alert-danger"
+             *ngIf="addReviewForm.get('directorName').hasError('required') && addReviewForm.get('directorName').touched">Please entry valid value and repeat</div>
+      </div>
+      <div class="form-group">
+
+        <input id="revieweComments" name="revieweComments" type="text" class="form-control"  formControlName="revieweComments">
+
+        <label for="revieweComments">Release Year</label>
+        <div class="alert alert-danger"
+             *ngIf="addMoveaddReviewFormForm.get('reviewerRating').hasError('required') && addReviewForm.get('reviewerRating').touched">Please entry valid value and repeat</div>
+      </div>
+
+
+      <p class="bg-success" style="padding:10px;margin-top:20px;clear:both">
+        <input class="submit btn" type="submit" name="name" value="Добавить" />
+      </p>
+
+    </form>
+  </div>
+</div>
