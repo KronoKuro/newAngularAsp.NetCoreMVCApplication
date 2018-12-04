@@ -31,6 +31,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\authentification\auth.guard.ts" />
+    <None Remove="ClientApp\src\app\authentification\auth.interceptor.ts" />
+    <None Remove="ClientApp\src\app\authentification\auth.services.ts" />
+    <None Remove="ClientApp\src\app\authentification\authentification.component.ts" />
     <None Remove="ClientApp\src\app\models\movie.model.ts" />
     <None Remove="ClientApp\src\app\models\review.model.ts" />
     <None Remove="ClientApp\src\app\movie\movies.services.ts" />
@@ -44,6 +48,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\app\authentification\auth.guard.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\authentification\auth.interceptor.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\authentification\auth.services.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\authentification\authentification.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\models\review.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\models\movie.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\movie\movies.services.ts" />

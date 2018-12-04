@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RouterModule, ActivatedRouteSnapshot } from '@angular/router';
 
 import { AppComponent } from './app.component';
@@ -16,6 +16,9 @@ import { EditMovieComponent } from './movie/edit-movie/edit-movie.component';
 import { DeleteMovieComponent } from './movie/delete-movie/delete-movie.component';
 import { ReviewsServices } from './reviews/reviews.services';
 import { ReviewComponent } from './reviews/reviews.component';
+import { AuthServices } from './authentification/auth.services';
+import { AuthInterceptor } from './authentification/auth.interceptor';
+import { AuthentificationComponent } from './authentification/authentification.component';
 
 
 
@@ -30,7 +33,8 @@ import { ReviewComponent } from './reviews/reviews.component';
     AddMovieComponent,
     EditMovieComponent,
     DeleteMovieComponent,
-    ReviewComponent
+    ReviewComponent,
+    AuthentificationComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -46,11 +50,17 @@ import { ReviewComponent } from './reviews/reviews.component';
       { path: 'edit-movie/:id', component: EditMovieComponent },
       { path: 'delete-movie/:id', component: DeleteMovieComponent },
       { path: 'counter', component: CounterComponent },
+      { path: 'login', component: AuthentificationComponent },
       { path: 'fetch-data', component: FetchDataComponent },
       { path: '**', redirectTo: 'home' },
     ])
   ],
-  providers: [MoviesServices, ReviewsServices],
+  providers: [MoviesServices, ReviewsServices, AuthServices,
+     {
+      provide: HTTP_INTERCEPTORS,
+      useClass: AuthInterceptor,
+      multi: true
+    }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -12,7 +12,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.4",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.4",
           "MovieReviewSpa.Data.Contracts": "1.0.0",
-          "MovieReviewSpa.Model": "1.0.0"
+          "MovieReviewSpa.Model": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.1.1.0",
+          "Microsoft.Extensions.Identity.Stores": "2.1.1.0",
+          "Microsoft.IdentityModel.Tokens": "5.2.0.0"
         },
         "runtime": {
           "MovieReviewSpa.Data.dll": {}
@@ -541,6 +544,30 @@
         "runtime": {
           "MovieReviewSpa.Model.dll": {}
         }
+      },
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/2.1.1.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.Extensions.Identity.Stores/2.1.1.0": {
+        "runtime": {
+          "Microsoft.Extensions.Identity.Stores.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.2.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.50129"
+          }
+        }
       }
     }
   },
@@ -949,6 +976,21 @@
     },
     "MovieReviewSpa.Model/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/2.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Identity.Stores/2.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Tokens/5.2.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

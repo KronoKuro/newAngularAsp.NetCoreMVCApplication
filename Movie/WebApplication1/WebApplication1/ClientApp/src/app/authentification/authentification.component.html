@@ -1,0 +1,12 @@
+<div class="login_wrapper">
+  <div class="login_elements">
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+      <input class="form-control" name="Login" formControlName="Login" placeholder="Login">
+      <input class="form-control" name="Password" type="password" formControlName="Password" placeholder="Password">
+      <input class="submit btn" type="submit" name="name" value="Вход" />
+    </form>
+  </div>
+  <div class="register_elements">
+    <p>Зарегистрируйтесь что бы начать <a routerLink="/register">Нажмите сюда</a></p>
+  </div>
+</div>

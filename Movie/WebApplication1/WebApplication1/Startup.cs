@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -8,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using MovieReviewSpa.Data;
 using MovieReviewSpa.Data.Concrete;
 using MovieReviewSpa.Data.Contracts;
@@ -42,6 +44,26 @@ namespace WebApplication1
             services.AddScoped<IRepository<Movie>, MovieRepository>();
             services.AddScoped<IRepository<MovieReview>, MovieReviewsRepository>();
 
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+               .AddJwtBearer(options =>
+               {
+                   options.RequireHttpsMetadata = false;
+                   options.TokenValidationParameters = new TokenValidationParameters
+                   {
+                       ValidateIssuer = true,
+                       ValidIssuer = AuthOptions.ISSUER,
+
+                       ValidateAudience = true,
+                       ValidAudience = AuthOptions.AUDIENCE,
+
+                       ValidateLifetime = true,
+
+                       IssuerSigningKey = AuthOptions.GetSymmetricSecurityKey(),
+                       ValidateIssuerSigningKey = true,
+
+                   };
+               });
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             // In production, the Angular files will be served from this directory
@@ -70,6 +92,7 @@ namespace WebApplication1
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
+            app.UseAuthentication();
 
             app.UseMvc(routes =>
             {

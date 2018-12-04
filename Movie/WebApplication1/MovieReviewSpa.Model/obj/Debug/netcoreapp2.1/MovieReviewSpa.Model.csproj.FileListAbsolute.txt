@@ -16,3 +16,12 @@ C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Mode
 C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Model\obj\Debug\netcoreapp2.1\MovieReviewSpa.Model.dll
 C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Model\obj\Debug\netcoreapp2.1\MovieReviewSpa.Model.pdb
 C:\Users\Denis\Desktop\project\newcrud\Movie\WebApplication1\MovieReviewSpa.Model\obj\Debug\netcoreapp2.1\MovieReviewSpa.Model.csprojAssemblyReference.cache
+C:\Users\Pmatrosov\Desktop\ProjGit\MovHome\Movie\WebApplication1\MovieReviewSpa.Model\bin\Debug\netcoreapp2.1\MovieReviewSpa.Model.deps.json
+C:\Users\Pmatrosov\Desktop\ProjGit\MovHome\Movie\WebApplication1\MovieReviewSpa.Model\bin\Debug\netcoreapp2.1\MovieReviewSpa.Model.dll
+C:\Users\Pmatrosov\Desktop\ProjGit\MovHome\Movie\WebApplication1\MovieReviewSpa.Model\bin\Debug\netcoreapp2.1\MovieReviewSpa.Model.pdb
+C:\Users\Pmatrosov\Desktop\ProjGit\MovHome\Movie\WebApplication1\MovieReviewSpa.Model\obj\Debug\netcoreapp2.1\MovieReviewSpa.Model.csprojAssemblyReference.cache
+C:\Users\Pmatrosov\Desktop\ProjGit\MovHome\Movie\WebApplication1\MovieReviewSpa.Model\obj\Debug\netcoreapp2.1\MovieReviewSpa.Model.csproj.CoreCompileInputs.cache
+C:\Users\Pmatrosov\Desktop\ProjGit\MovHome\Movie\WebApplication1\MovieReviewSpa.Model\obj\Debug\netcoreapp2.1\MovieReviewSpa.Model.AssemblyInfoInputs.cache
+C:\Users\Pmatrosov\Desktop\ProjGit\MovHome\Movie\WebApplication1\MovieReviewSpa.Model\obj\Debug\netcoreapp2.1\MovieReviewSpa.Model.AssemblyInfo.cs
+C:\Users\Pmatrosov\Desktop\ProjGit\MovHome\Movie\WebApplication1\MovieReviewSpa.Model\obj\Debug\netcoreapp2.1\MovieReviewSpa.Model.dll
+C:\Users\Pmatrosov\Desktop\ProjGit\MovHome\Movie\WebApplication1\MovieReviewSpa.Model\obj\Debug\netcoreapp2.1\MovieReviewSpa.Model.pdb

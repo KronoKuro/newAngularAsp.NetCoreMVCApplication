@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Denis\\.nuget\\packages\\": {},
+    "C:\\Users\\Pmatrosov\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Denis\\Desktop\\project\\newcrud\\Movie\\WebApplication1\\MovieReviewSpa.Model\\MovieReviewSpa.Model.csproj",
+      "projectUniqueName": "C:\\Users\\Pmatrosov\\Desktop\\ProjGit\\MovHome\\Movie\\WebApplication1\\MovieReviewSpa.Model\\MovieReviewSpa.Model.csproj",
       "projectName": "MovieReviewSpa.Model",
-      "projectPath": "C:\\Users\\Denis\\Desktop\\project\\newcrud\\Movie\\WebApplication1\\MovieReviewSpa.Model\\MovieReviewSpa.Model.csproj",
-      "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Denis\\Desktop\\project\\newcrud\\Movie\\WebApplication1\\MovieReviewSpa.Model\\obj\\",
+      "projectPath": "C:\\Users\\Pmatrosov\\Desktop\\ProjGit\\MovHome\\Movie\\WebApplication1\\MovieReviewSpa.Model\\MovieReviewSpa.Model.csproj",
+      "packagesPath": "C:\\Users\\Pmatrosov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pmatrosov\\Desktop\\ProjGit\\MovHome\\Movie\\WebApplication1\\MovieReviewSpa.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pmatrosov\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
