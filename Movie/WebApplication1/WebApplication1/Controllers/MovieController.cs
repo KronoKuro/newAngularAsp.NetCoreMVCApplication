@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MovieReviewSpa.Data;
 using MovieReviewSpa.Data.Contracts;
@@ -58,6 +59,7 @@ namespace WebApplication1.Controllers
             return new HttpResponseMessage(HttpStatusCode.NoContent);
         }
 
+        [Authorize]
         [HttpPost]
         public int Post([FromBody]Movie movie)
         {

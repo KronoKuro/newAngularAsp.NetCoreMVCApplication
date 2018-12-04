@@ -1,10 +1,14 @@
 <div class="container">
   <div class="row">
-  <div class="col-sm-12 col-md-12">
-    <span class="btn btn-danger">
-      <i class="glyphiconglyphicon-add"></i><a [routerLink]="['/add-movie/']" style="color: black">Add Movie </a>
-    </span>
-  </div>
+    <div class="col-sm-12 col-md-12">
+      <span class="btn btn-danger">
+        <i class="glyphiconglyphicon-add"></i><a [routerLink]="['/add-movie/']" style="color: black">Add Movie </a>
+      </span>
+        <p class="bg-success" style="padding:10px;margin-top:20px;clear:both">
+          <input class="submit btn" type="button" (click)="logout()" name="name" value="выйти" />
+        </p>
+      
+    </div>
   </div>
     <h3>Movies List</h3>
     <div class="container">

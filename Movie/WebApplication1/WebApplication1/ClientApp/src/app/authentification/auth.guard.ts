@@ -16,10 +16,12 @@ export class AuthGuard implements CanActivate {
     const token = localStorage.getItem('access_token');
     if(token != null){
     const tokenPayLoad = decode(token);
-    if (!this.authService.checkAcess() || tokenPayLoad.role !== expectedRole) {
-      this.router.navigate(['login']);
+      if (!this.authService.checkAcess() || tokenPayLoad.role !== expectedRole) {
+        this.router.navigate(['login']);
+        
       return false;
-    }
+      }
+      console.log(token);
     return true;
     }
     else{

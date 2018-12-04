@@ -19,6 +19,7 @@ import { ReviewComponent } from './reviews/reviews.component';
 import { AuthServices } from './authentification/auth.services';
 import { AuthInterceptor } from './authentification/auth.interceptor';
 import { AuthentificationComponent } from './authentification/authentification.component';
+import { AuthGuard } from './authentification/auth.guard';
 
 
 
@@ -43,7 +44,7 @@ import { AuthentificationComponent } from './authentification/authentification.c
     ReactiveFormsModule,
     RouterModule.forRoot([
       //{ path: '', redirectTo:'home', component: HomeComponent, pathMatch: 'full' },
-      { path: 'home', component: HomeComponent },
+      { path: 'home', component: HomeComponent, canActivate: [AuthGuard], data: { expectedRole: 'User' } },
       { path: 'movies', component: MovieComponent },
       { path: 'reviews/:id', component: ReviewComponent },
       { path: 'add-movie', component: AddMovieComponent },
@@ -52,10 +53,10 @@ import { AuthentificationComponent } from './authentification/authentification.c
       { path: 'counter', component: CounterComponent },
       { path: 'login', component: AuthentificationComponent },
       { path: 'fetch-data', component: FetchDataComponent },
-      { path: '**', redirectTo: 'home' },
+      { path: '**', redirectTo: 'movies' },
     ])
   ],
-  providers: [MoviesServices, ReviewsServices, AuthServices,
+  providers: [MoviesServices, ReviewsServices, AuthServices, AuthGuard,
      {
       provide: HTTP_INTERCEPTORS,
       useClass: AuthInterceptor,

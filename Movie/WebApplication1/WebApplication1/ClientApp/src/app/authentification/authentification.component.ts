@@ -31,7 +31,7 @@ export class AuthentificationComponent implements  OnInit {
       console.log(resp['id']);
       debugger;
       if (resp['admin'] != true) {
-        this.router.navigate(['user']);
+        this.router.navigate(['home']);
       } else {
         this.router.navigate(['admin']);
       }
